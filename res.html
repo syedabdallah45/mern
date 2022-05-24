@@ -1,0 +1,256 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="generator" content="Hugo 0.98.0">
+  <title>Bootstrap demo</title>
+  
+ 
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<style>
+  /* .carousel{
+      margin-left: 200px;
+    } */
+ 
+ 
+    .contain{
+  margin-top: 200px;
+  background-color: rgb(89, 117, 89);;
+  background-size: contain;
+}
+ 
+.icon{
+  padding-right: 60px;
+  display: flex;
+  
+  /* flex-wrap: wrap; */
+  /* margin: auto; */
+}
+.imgs{
+  width: 65px;
+  margin: 2px;
+}
+  
+
+  .navbar {
+    background-color: rgb(74, 98, 74);
+  }
+
+
+  .card {
+    margin: 7px;
+    border-radius: 20px;
+
+  }
+ 
+  
+
+
+  @media screen and (min-width:500px) {
+
+    /* body{
+                background-color: black;
+            }; */
+    .carousel-item {
+      height: 200px;
+    }
+    
+  }
+</style>
+
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Vibe Fitness </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+        aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarScroll">
+        <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/index6.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Exercises</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarScrollingDropdown" role="button"
+              data-bs-toggle="dropdown" aria-expanded="false">
+              About us
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarScrollingDropdown">
+              <li><a class="dropdown-item" href="#">Action</a></li>
+              <li><a class="dropdown-item" href="#">Another action</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="#">Something else here</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled">Link</a>
+          </li>
+        </ul>
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+        
+      </div>
+    </div>
+  </nav>
+
+   <img class="wave" src="wave.png">
+	<div class="container col-md-6 col-sm-12">
+		<div class="img">
+			<img src="bg.svg">
+		</div>
+		<div class="login-content">
+			<form >
+				<img src="avatar.svg">
+				<h2 class="title">Welcome</h2>
+           		<div class="input-div one">
+           		   <div class="i">
+           		   		<i class="fas fa-user"></i>
+           		   </div>
+           		   <div class="div">
+           		   		
+           		   		<input type="text" class="input" placeholder="Username">
+           		   </div>
+           		</div>
+           		<div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+                  <div class="div">
+                    <input type="name" class="input" placeholder="firstname">
+                  </div>
+           		  </div>
+                 <div class="input-div pass">
+           		   <div class="i"> 
+           		    	<i class="fas fa-lock"></i>
+           		   </div>
+                  <div class="div">
+                    <input type="password" class="input" placeholder="ReEnter Password">
+                  </div>
+           		  </div>
+              
+              
+              
+
+            
+              <a class="btns" href="/res.html" role="button" value="Register">Register</a>
+              <div class="div">
+                <p>----------------- Or ---------------</p>
+              </div>
+            
+              <ul class="icon col-sm-4 col-md-12 justify-content-end list-unstyled ">
+    <li><img class='imgs' src="https://img.icons8.com/ios-glyphs/344/github.png" alt=""></li>
+    <li><img class='imgs' src="https://img.icons8.com/fluency/2x/twitter.png" alt=""></li>
+    <li><img class='imgs'src="https://img.icons8.com/color/2x/google-logo.png" alt=""></li>
+
+    </ul>
+  
+            </form>
+
+        </div>
+    </div>  
+    <div class="contain">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <p class="text-muted">© 2022</p>
+        </div>
+    
+        <div class="col mb-3">
+    
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <!-- <div class="container">
+      <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top">
+        <div class="col mb-3">
+          <a href="/" class="d-flex align-items-center mb-3 link-dark text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+          <p class="text-muted">© 2022</p>
+        </div>
+    
+        <div class="col mb-3">
+    
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+    
+        <div class="col mb-3">
+          <h5>Section</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Features</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">Pricing</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">FAQs</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+          </ul>
+        </div>
+    
+          </ul>
+        </div>
+      </footer>
+    </div> -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
